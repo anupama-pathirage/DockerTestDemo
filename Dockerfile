@@ -88,6 +88,6 @@ RUN addgroup troupe \
 WORKDIR /home/ballerina
 
 EXPOSE  9090
-USER ballerina
+USER 10001
 
 CMD java -Xdiag -cp "anupama-testbindgen-0.1.0.jar:jars/*" 'anupama/testbindgen/0/$_init'
